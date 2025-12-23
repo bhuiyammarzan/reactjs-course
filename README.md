@@ -1,1 +1,1 @@
-# ReactJS Courses Notes
+# ReactJS Course Notes
