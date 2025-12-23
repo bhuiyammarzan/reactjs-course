@@ -1,10 +1,18 @@
 // import SimpleForm from "./components/SimpleForm";
+// import MultiInputForm from "./components/MultiInputForm";
+// import AdvancedForm from "./components/AdvancedForm";
 
-import MultiInputForm from "./components/MultiInputForm";
+import UncontrolledForm from "./components/UncontrolledForm";
 
 function App() {
-  return <MultiInputForm />;
-  // return <SimpleForm />;
+  return (
+    <>
+      <UncontrolledForm />
+      {/* <AdvancedForm />; */}
+      {/* <MultiInputForm />; */}
+      {/* <SimpleForm />; */}
+    </>
+  );
 }
 
 export default App;
